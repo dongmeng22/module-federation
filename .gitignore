@@ -1,0 +1,25 @@
+.DS_Store
+.temp
+.vscode
+cache
+.eslintcache
+
+node_modules/
+host/node_modules/
+remote/node_modules/
+dist/
+host/dist/
+remote/dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
