@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpm i && pnpm run install",
-    "install": "npm-run-all --parallel install:*",
+    "dev": "pnpm run install",
+    "install": "npm-run-all --parallel install:* && pnpm run start",
     "install:host": "cd host && pnpm i",
     "install:remote": "cd remote && pnpm i",
-    "dev": "npm-run-all --parallel dev:*",
-    "dev:host": "cd host && pnpm run dev",
-    "dev:remote": "cd remote && pnpm run dev",
+    "start": "npm-run-all --parallel start:*",
+    "start:host": "cd host && pnpm run dev",
+    "start:remote": "cd remote && pnpm run dev",
     "build": "npm-run-all --parallel build:*",
     "build:host": "cd host && pnpm run build",
     "build:remote": "cd remote && pnpm run build"
