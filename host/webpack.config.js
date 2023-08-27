@@ -30,10 +30,6 @@ module.exports = {
         use: 'vue-loader'
       },
       {
-        test: /\.(js|jsx)$/,
-        use: 'swc-loader'
-      },
-      {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,

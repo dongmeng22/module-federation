@@ -1,5 +1,5 @@
 <template>
-  <h2>远程组件 -- host</h2>
+  <h2>远程组:3002 -- host</h2>
   <hr>
   <Content></Content>
   <Button></Button>
